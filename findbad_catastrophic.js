@@ -2,7 +2,7 @@
 
 const { Duplex } = require('stream');
 const { StringDecoder } = require('string_decoder');
-const { Shell } = require('./test/shell');
+const { Shell } = require('./shell');
 
 /**
  * Make a simple stream from which will store whatever you write to it
